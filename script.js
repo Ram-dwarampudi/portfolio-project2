@@ -434,3 +434,4 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
+document.querySelector('[data-filter="all"]').click();
