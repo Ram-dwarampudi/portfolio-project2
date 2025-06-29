@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A. Satya Prakash - Video Editor & Content Creator Portfolio</title>
+    <meta name="description" content="Professional video editor and content creator with 5+ years of experience. Specializing in CapCut, social media content, and creative storytelling.">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-content">
+                <div class="nav-logo">Portfolio</div>
+                
+                <!-- Desktop Navigation -->
+                <div class="nav-desktop">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#skills" class="nav-link">Skills</a>
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                    <a href="#experience" class="nav-link">Experience</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="mobile-menu">
+                <a href="#home" class="mobile-nav-link" onclick="closeMobileMenu()">Home</a>
+                <a href="#about" class="mobile-nav-link" onclick="closeMobileMenu()">About</a>
+                <a href="#skills" class="mobile-nav-link" onclick="closeMobileMenu()">Skills</a>
+                <a href="#portfolio" class="mobile-nav-link" onclick="closeMobileMenu()">Portfolio</a>
+                <a href="#experience" class="mobile-nav-link" onclick="closeMobileMenu()">Experience</a>
+                <a href="#contact" class="mobile-nav-link" onclick="closeMobileMenu()">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="hero-name">A. Satya Prakash</span>
+                        <span class="hero-role">Video Editor</span>
+                    </h1>
+                    <p class="hero-description">
+                        Transforming ideas into compelling visual stories through expert video editing, 
+                        content creation, and social media expertise with 5+ years of experience.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn btn-primary">
+                            <i class="fas fa-play"></i> View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-envelope"></i> Get In Touch
+                        </a>
+                    </div>
+                    
+                    <!-- Social Media Links -->
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/reel/DK2PV14vk5Y/?igsh=bjZ5bXlndjdqdXBr" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://youtube.com/@satyaprakash" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/satya-prakash" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:satyaconcept01@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <div class="profile-container">
+                        <div class="profile-image">
+                            <img src="profile.jpg" alt="A. Satya Prakash - Professional Video Editor">
+                        </div>
+                        <div class="decoration decoration-1"></div>
+                        <div class="decoration decoration-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-content">
+                    <h3 class="about-subtitle">Passionate Video Editor & Content Creator</h3>
+                    <p class="about-text">
+                        With over 5 years of experience in video editing and content creation, I specialize in transforming 
+                        raw footage into compelling visual narratives. My expertise spans across multiple platforms, with a 
+                        particular focus on social media content that engages and inspires audiences.
+                    </p>
+                    <p class="about-text">
+                        I have a keen eye for detail and a passion for storytelling through visual media. Whether it's 
+                        creating viral social media content, educational videos, or promotional materials, I bring creativity 
+                        and technical expertise to every project.
+                    </p>
+                    
+                    <!-- Key Highlights -->
+                    <div class="highlights-grid">
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>5+ Years Experience</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>CapCut Expert</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Social Media Specialist</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Creative Storyteller</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-cards">
+                    <!-- Education Card -->
+                    <div class="info-card">
+                        <h4 class="card-title">
+                            <i class="fas fa-graduation-cap"></i>
+                            Education & Training
+                        </h4>
+                        <div class="card-content">
+                            <div class="education-item">
+                                <p class="education-degree">Degree Program</p>
+                                <p class="education-school">B.V. Raju College, Bhimavaram</p>
+                            </div>
+                            <div class="education-item">
+                                <p class="education-degree">Self-taught Video Editing</p>
+                                <p class="education-school">CapCut Specialist • 5+ Years</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Personal Info -->
+                    <div class="info-card personal-card">
+                        <h4 class="card-title">
+                            <i class="fas fa-user"></i>
+                            Personal Details
+                        </h4>
+                        <div class="personal-grid">
+                            <div class="personal-item">
+                                <span class="personal-label">Availability:</span>
+                                <p class="personal-value">Freelance</p>
+                            </div>
+                            <div class="personal-item">
+                                <span class="personal-label">Experience:</span>
+                                <p class="personal-value">5+ Years</p>
+                            </div>
+                            <div class="personal-item">
+                                <span class="personal-label">Specialization:</span>
+                                <p class="personal-value">CapCut</p>
+                            </div>
+                            <div class="personal-item">
+                                <span class="personal-label">Focus:</span>
+                                <p class="personal-value">Social Media</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Specialized in cutting-edge video editing tools and creative content strategies
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Technical Skills -->
+                <div class="technical-skills">
+                    <h3 class="skills-subtitle">Technical Proficiency</h3>
+                    
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">CapCut (Primary Tool)</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Color Grading</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Motion Graphics</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Audio Editing</span>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item">
+                            <div class="skill-header">
+                                <span class="skill-name">Social Media Optimization</span>
+                                <span class="skill-percentage">92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Creative Skills -->
+                <div class="creative-skills">
+                    <h3 class="skills-subtitle">Creative Capabilities</h3>
+                    
+                    <div class="creative-grid">
+                        <div class="creative-card">
+                            <i class="fas fa-video"></i>
+                            <h4>Video Editing</h4>
+                            <p>Professional cutting, transitions, and effects</p>
+                        </div>
+                        
+                        <div class="creative-card">
+                            <i class="fas fa-palette"></i>
+                            <h4>Color Grading</h4>
+                            <p>Cinematic looks and mood enhancement</p>
+                        </div>
+                        
+                        <div class="creative-card">
+                            <i class="fas fa-volume-up"></i>
+                            <h4>Sound Design</h4>
+                            <p>Audio mixing and sound effects</p>
+                        </div>
+                        
+                        <div class="creative-card">
+                            <i class="fas fa-pen-fancy"></i>
+                            <h4>Storytelling</h4>
+                            <p>Narrative structure and engagement</p>
+                        </div>
+                        
+                        <div class="creative-card">
+                            <i class="fab fa-instagram"></i>
+                            <h4>Social Media</h4>
+                            <p>Platform-specific content optimization</p>
+                        </div>
+                        
+                        <div class="creative-card">
+                            <i class="fas fa-magic"></i>
+                            <h4>Effects</h4>
+                            <p>Special effects and animations</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Software Tools -->
+            <div class="tools-section">
+                <div class="tools-card">
+                    <h3 class="tools-title">Software & Tools</h3>
+                    <div class="tools-grid">
+                        <div class="tool-item">
+                            <div class="tool-icon">
+                                <i class="fas fa-cut"></i>
+                            </div>
+                            <p class="tool-name">CapCut</p>
+                            <p class="tool-level">Expert</p>
+                        </div>
+                        
+                        <div class="tool-item">
+                            <div class="tool-icon">
+                                <i class="fab fa-adobe"></i>
+                            </div>
+                            <p class="tool-name">Photoshop</p>
+                            <p class="tool-level">Advanced</p>
+                        </div>
+                        
+                        <div class="tool-item">
+                            <div class="tool-icon">
+                                <i class="fas fa-film"></i>
+                            </div>
+                            <p class="tool-name">DaVinci</p>
+                            <p class="tool-level">Intermediate</p>
+                        </div>
+                        
+                        <div class="tool-item">
+                            <div class="tool-icon">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <p class="tool-name">Audacity</p>
+                            <p class="tool-level">Advanced</p>
+                        </div>
+                        
+                        <div class="tool-item">
+                            <div class="tool-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <p class="tool-name">Analytics</p>
+                            <p class="tool-level">Advanced</p>
+                        </div>
+                        
+                        <div class="tool-item">
+                            <div class="tool-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <p class="tool-name">Mobile</p>
+                            <p class="tool-level">Expert</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Portfolio</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    A showcase of creative projects spanning video editing, content creation, and social media campaigns
+                </p>
+            </div>
+
+            <!-- Portfolio Filter -->
+            <div class="portfolio-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="video-editing">Video Editing</button>
+                <button class="filter-btn" data-filter="content-creation">Content Creation</button>
+                <button class="filter-btn" data-filter="social-media">Social Media</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="video-editing">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Corporate Brand Video">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <i class="fas fa-play-circle"></i>
+                                <p>View Project</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-badge video-editing">Video Editing</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Corporate Brand Video</h3>
+                        <p class="portfolio-description">Professional brand storytelling with advanced color grading and motion graphics</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">CapCut</span>
+                            <span class="tag">Color Grading</span>
+                            <span class="tag">Motion Graphics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="content-creation">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Educational Content Series">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <i class="fas fa-eye"></i>
+                                <p>View Project</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-badge content-creation">Content Creation</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Educational Content Series</h3>
+                        <p class="portfolio-description">Multi-part educational series with engaging animations and clear storytelling</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Storytelling</span>
+                            <span class="tag">Animation</span>
+                            <span class="tag">Education</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="social-media">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1611606063065-ee7946f0787a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Instagram Campaign">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <i class="fab fa-instagram"></i>
+                                <p>View Project</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-badge social-media">Social Media</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Instagram Campaign</h3>
+                        <p class="portfolio-description">Viral social media campaign with 2M+ views and high engagement rates</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Instagram</span>
+                            <span class="tag">Viral</span>
+                            <span class="tag">Engagement</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="video-editing">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1536240478700-b869070f9279?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Music Video Production">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <i class="fas fa-play-circle"></i>
+                                <p>View Project</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-badge video-editing">Video Editing</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Music Video Production</h3>
+                        <p class="portfolio-description">High-energy music video with complex transitions and effects</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Music Video</span>
+                            <span class="tag">Effects</span>
+                            <span class="tag">Transitions</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="content-creation">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Product Showcase">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <i class="fas fa-eye"></i>
+                                <p>View Project</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-badge content-creation">Content Creation</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Product Showcase</h3>
+                        <p class="portfolio-description">Premium product videos with cinematic quality and attention to detail</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">Product</span>
+                            <span class="tag">Cinematic</span>
+                            <span class="tag">Commercial</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item" data-category="social-media">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="YouTube Series">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-overlay-content">
+                                <i class="fab fa-youtube"></i>
+                                <p>View Project</p>
+                            </div>
+                        </div>
+                        <div class="portfolio-badge social-media">Social Media</div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">YouTube Series</h3>
+                        <p class="portfolio-description">Weekly YouTube series with consistent branding and high retention rates</p>
+                        <div class="portfolio-tags">
+                            <span class="tag">YouTube</span>
+                            <span class="tag">Series</span>
+                            <span class="tag">Branding</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="portfolio-cta">
+                <a href="#contact" class="btn btn-primary btn-large">
+                    <i class="fas fa-folder-open"></i> View Full Portfolio
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience Timeline</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    5+ years of professional video editing and content creation experience
+                </p>
+            </div>
+
+            <!-- Timeline -->
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2022 - Present</span>
+                        <h3 class="timeline-title">Senior Video Editor</h3>
+                        <p class="timeline-company">Creative Media Agency</p>
+                        <p class="timeline-description">
+                            Leading video production projects for major brands, specializing in social media content and commercial advertising. 
+                            Increased client engagement by 150% through innovative editing techniques.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">CapCut</span>
+                            <span class="tag">Team Lead</span>
+                            <span class="tag">Brand Content</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2020 - 2022</span>
+                        <h3 class="timeline-title">Freelance Content Creator</h3>
+                        <p class="timeline-company">Independent</p>
+                        <p class="timeline-description">
+                            Built a successful freelance business creating content for small businesses and influencers. 
+                            Specialized in Instagram and TikTok content, achieving viral success with multiple campaigns.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Social Media</span>
+                            <span class="tag">Freelance</span>
+                            <span class="tag">Viral Content</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2019 - 2020</span>
+                        <h3 class="timeline-title">Junior Video Editor</h3>
+                        <p class="timeline-company">Digital Production House</p>
+                        <p class="timeline-description">
+                            Started professional career in video editing, working on diverse projects from corporate videos to wedding films. 
+                            Gained expertise in color grading and audio post-production.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Corporate</span>
+                            <span class="tag">Color Grading</span>
+                            <span class="tag">Audio</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-period">2018 - 2019</span>
+                        <h3 class="timeline-title">Video Editing Intern</h3>
+                        <p class="timeline-company">Local Media Company</p>
+                        <p class="timeline-description">
+                            First professional experience in video editing. Learned industry standards and developed foundational skills 
+                            in CapCut and other editing software.
+                        </p>
+                        <div class="timeline-tags">
+                            <span class="tag">Internship</span>
+                            <span class="tag">Learning</span>
+                            <span class="tag">Foundation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Achievement Stats -->
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">500+</div>
+                    <p class="stat-label">Projects Completed</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">50+</div>
+                    <p class="stat-label">Happy Clients</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">10M+</div>
+                    <p class="stat-label">Total Views</p>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5+</div>
+                    <p class="stat-label">Years Experience</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Ready to bring your vision to life? Let's discuss your next video project
+                </p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h3 class="contact-subtitle">Get In Touch</h3>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <a href="mailto:satyaconcept01@gmail.com" class="contact-link">satyaconcept01@gmail.com</a>
+                                <p class="contact-subtitle-text">Response within 24 hours</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Instagram</h4>
+                                <a href="https://www.instagram.com/reel/DK2PV14vk5Y/?igsh=bjZ5bXlndjdqdXBr" target="_blank" rel="noopener noreferrer" class="contact-link">@satyaprakash</a>
+                                <p class="contact-subtitle-text">Follow for latest work updates</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p class="contact-text">Bhimavaram, India</p>
+                                <p class="contact-subtitle-text">Available for remote work worldwide</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Media -->
+                    <div class="contact-social">
+                        <h4 class="social-title">Follow My Work</h4>
+                        <div class="contact-social-links">
+                            <a href="https://www.instagram.com/reel/DK2PV14vk5Y/?igsh=bjZ5bXlndjdqdXBr" target="_blank" rel="noopener noreferrer" class="contact-social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://youtube.com/@satyaprakash" target="_blank" rel="noopener noreferrer" class="contact-social-link">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="https://linkedin.com/in/satya-prakash" target="_blank" rel="noopener noreferrer" class="contact-social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="mailto:satyaconcept01@gmail.com" class="contact-social-link">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <div class="contact-form-card">
+                        <h3 class="form-title">Send a Message</h3>
+                        
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name</label>
+                                    <input type="text" id="firstName" name="firstName" placeholder="Your first name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name</label>
+                                    <input type="text" id="lastName" name="lastName" placeholder="Your last name" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="projectType">Project Type</label>
+                                <select id="projectType" name="projectType" required>
+                                    <option value="">Select project type</option>
+                                    <option value="video-editing">Video Editing</option>
+                                    <option value="content-creation">Content Creation</option>
+                                    <option value="social-media">Social Media Campaign</option>
+                                    <option value="corporate">Corporate Video</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="budget">Budget Range</label>
+                                <select id="budget" name="budget" required>
+                                    <option value="">Select budget range</option>
+                                    <option value="500-1000">$500 - $1,000</option>
+                                    <option value="1000-2500">$1,000 - $2,500</option>
+                                    <option value="2500-5000">$2,500 - $5,000</option>
+                                    <option value="5000+">$5,000+</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Project Details</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Tell me about your project, timeline, and any specific requirements..." required></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">A. Satya Prakash</h3>
+                    <p class="footer-text">
+                        Professional video editing and content creation services with 5+ years of experience. 
+                        Transforming ideas into compelling visual stories.
+                    </p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-subtitle">Services</h4>
+                    <ul class="footer-services">
+                        <li>Video Editing</li>
+                        <li>Content Creation</li>
+                        <li>Social Media Content</li>
+                        <li>Color Grading</li>
+                        <li>Motion Graphics</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    © 2024 A. Satya Prakash. All rights reserved.
+                </p>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/reel/DK2PV14vk5Y/?igsh=bjZ5bXlndjdqdXBr" target="_blank" rel="noopener noreferrer" class="footer-social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://youtube.com/@satyaprakash" target="_blank" rel="noopener noreferrer" class="footer-social-link">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/satya-prakash" target="_blank" rel="noopener noreferrer" class="footer-social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:satyaconcept01@gmail.com" class="footer-social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
