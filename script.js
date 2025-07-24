@@ -433,4 +433,4 @@ style.textContent = `
         color: #374151;
     }
 `;
-document.head.appendChild(style);
+document.head.appendChild(style); 
